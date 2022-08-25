@@ -1,6 +1,6 @@
 '''Writing a program that converts english text to morse code and vise versa.'''
-print("press 1 to convert english text to morse code \n press 2 to convert morse code to english text")
-op=int(input("press 1 or 2:"))
+print("Press 1 to convert English text to Morse codes \n Press 2 to convert Morse code to English text")
+op=int(input("Press 1 or 2:"))
 if op==1:
     text=input("Enter the English text which you want to convert into morse code:")
     string=text.upper()
